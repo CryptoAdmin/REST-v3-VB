@@ -49,12 +49,12 @@ Namespace com.cryptofacilities.REST.v3.Examples
             Console.WriteLine("getTickers:" & vbNewLine & result)
 
             'get orderbook
-            symbol = "f-xbt:usd-sep16"
+            symbol = "FI_XBTUSD_180316"
             result = methods.getOrderBook(symbol)
             Console.WriteLine("getOrderBook:" & vbNewLine & result)
 
             'get history
-            symbol = "f-xbt:usd-sep16"
+            symbol = "FI_XBTUSD_180316"
             result = methods.getHistory(symbol, New DateTime(2016, 01, 20))
             Console.WriteLine("getHistory:" & vbNewLine & result)
 
@@ -67,7 +67,7 @@ Namespace com.cryptofacilities.REST.v3.Examples
 
             'send limit order
             orderType = "lmt"
-            symbol = "f-xbt:usd-sep16"
+            symbol = "FI_XBTUSD_180316"
             side = "buy"
             size = 1D
             limitPrice = 1D
@@ -76,7 +76,7 @@ Namespace com.cryptofacilities.REST.v3.Examples
 
             'send stop order
             orderType = "stp"
-            symbol = "f-xbt:usd-sep16"
+            symbol = "FI_XBTUSD_180316"
             side = "buy"
             size = 1D
             limitPrice = 1.1D
@@ -97,7 +97,7 @@ Namespace com.cryptofacilities.REST.v3.Examples
                             ""order"": ""send"",
                             ""order_tag"": ""1"",
                             ""orderType"": ""lmt"",
-                            ""symbol"": ""f-xbt:usd-sep16"",
+                            ""symbol"": ""FI_XBTUSD_180316"",
                             ""side"": ""buy"",
                             ""size"": 1,
                             ""limitPrice"": 1.00,
@@ -106,7 +106,7 @@ Namespace com.cryptofacilities.REST.v3.Examples
                             ""order"": ""send"",
                             ""order_tag"": ""2"",
                             ""orderType"": ""stp"",
-                            ""symbol"": ""f-xbt:usd-sep16"",             
+                            ""symbol"": ""FI_XBTUSD_180316"",             
                             ""side"": ""buy"",
                             ""size"": 1,
                             ""limitPrice"": 2.00,
