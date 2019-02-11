@@ -1,2 +1,2 @@
-# REST-v2-VB
-CryptoFacilities REST API v2 Example Client
+# REST-v3-VB
+CryptoFacilities REST API v3 Example Client
